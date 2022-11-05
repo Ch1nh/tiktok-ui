@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { DefaultLayout } from '~/components/Layout';
+import { DefaultLayout } from '~/components/Layouts';
 import { publicRoutes } from '~/routes';
 import { Fragment } from 'react';
 function App() {
   return (
     <Router>
-      <div className="App" style={{ padding: 20 }}>
+      <div className="App">
         <Routes>
           {publicRoutes.map((route, index) => {
             let Layout = DefaultLayout;

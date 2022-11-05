@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 9px 14px;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.info {
+  flex: 1;
+  margin-left: 10px;
+}
+.name {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.username {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(22, 24, 35, 0.5);
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.icon {
+  color: #1693a3;
+  margin-left: 6px;
+}
